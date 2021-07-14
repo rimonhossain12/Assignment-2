@@ -124,17 +124,24 @@ main{
         height: 213px;
 }
 
+.footer-div{
+        position: relative;
+}
 .footer-icon i{
         margin-top: 32px;
         padding-left: 15px;
-        color:burlywood;
+        /* position: absolute; */
+        color:white;
+        padding: 10px;
+        background-color: lightgray;
+        border-radius: 50px;
         transition: width 2s,height 2s;
         transition: 0.5s ease;
 
 }
 .footer-icon a:hover i{
-        color:teal;
-        transform: scale(1.5);
+        color:salmon;
+        transform: scale(1.2);
        
 }
 .footer-icon p{
@@ -163,9 +170,15 @@ main{
         }
         .football{
                 flex-wrap: wrap;
-                
-                /* margin: auto; */
         }
+        .footer-div {
+                width: 70%;
+                margin: 0 auto;
+        }
+        .footer-div img{
+                width: 100%;
+        }
+      
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
